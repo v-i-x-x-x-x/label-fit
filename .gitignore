@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+.pytest_cache/
+build/
+dist/
+*.spec
+tmp/
+
+# Local configuration and diagnostics
+.env
+.env.*
+!.env.example
+*.log
+.idea/
+.vscode/
+
+# Shipping labels and exported media can contain names and addresses.
+labels/
+input/
+output/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+*.tif
+*.tiff
+*.exe
+*.zip
