@@ -90,16 +90,3 @@ Label Fit is licensed under **GNU AGPL version 3 only**. See [LICENSE](LICENSE)
 and [third-party notices](THIRD_PARTY_NOTICES.md). PyMuPDF/MuPDF uses the AGPL open
 source license; a commercial license is also available from Artifex. Pillow uses
 the MIT-CMU license.
-
-The source is suitable for a public GitHub repository. Local experiments,
-packaging tools, builds, executables, and PDFs/images are excluded by .gitignore
-so shipping labels and their addresses are not accidentally included. Tests
-generate synthetic labels and use dummy passwords, never real customer data.
-Review staged files before publishing; ignore rules do not protect files that
-are force-added or were already tracked.
-
-For a downloadable executable, use GitHub Releases instead of committing the
-binary. Publish its matching application source, required corresponding
-dependency source, dependency versions, build instructions, and license notices
-alongside the release. The existing local development executable is not a
-prepared public release package.
